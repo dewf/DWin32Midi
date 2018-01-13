@@ -1,0 +1,18 @@
+{
+	"name": "dwin32midi",
+	"authors": [
+		"Daniel G"
+	],
+	"description": "D wrapper for CWin32Midi (a C Win32 MIDI library)",
+	"copyright": "Copyright © 2018, Daniel G",
+	"license": "MIT",
+
+	"targetType": "library",
+	"targetPath": "bin",
+
+	"sourceFiles-windows-x86-dmd": ["./lib/32/dmd/CWIN32MIDI.lib"],
+	"sourceFiles-windows-x86_64": ["./lib/64/CWIN32MIDI.lib"],
+
+	"copyFiles-windows-x86": ["./lib/32/*.dll"],
+	"copyFiles-windows-x86_64": ["./lib/64/*.dll"]
+}
