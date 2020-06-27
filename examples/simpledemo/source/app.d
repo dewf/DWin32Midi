@@ -5,7 +5,7 @@ import core.thread;
 
 import dwin32midi;
 
-private const MIDI_DEVICE_NAME = "2- UA-4FX";
+private const MIDI_DEVICE_NAME = "Impact LX25+";
 
 void main()
 {
